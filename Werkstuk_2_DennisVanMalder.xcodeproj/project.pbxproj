@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F47C9FE20EF6DCF007C0F0D /* stationData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F47C9FC20EF6DCF007C0F0D /* stationData.xcdatamodeld */; };
+		3F47CA0020EF70AE007C0F0D /* StationDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47C9FF20EF70AE007C0F0D /* StationDataController.swift */; };
 		3FFA974C20EE5D9E0015ABBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA974B20EE5D9E0015ABBE /* AppDelegate.swift */; };
 		3FFA974E20EE5D9E0015ABBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA974D20EE5D9E0015ABBE /* ViewController.swift */; };
 		3FFA975120EE5D9E0015ABBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA974F20EE5D9E0015ABBE /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		3FFA975620EE5D9E0015ABBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA975420EE5D9E0015ABBE /* LaunchScreen.storyboard */; };
 		3FFA976120EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA976020EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderTests.swift */; };
 		3FFA976C20EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA976B20EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderUITests.swift */; };
+		3FFA977A20EE60910015ABBE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA977920EE60910015ABBE /* TableViewController.swift */; };
+		3FFA977C20EE60C20015ABBE /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA977B20EE60C20015ABBE /* StationViewController.swift */; };
+		3FFA977E20EE60F30015ABBE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA977D20EE60F30015ABBE /* MapViewController.swift */; };
+		3FFA978020EE61280015ABBE /* annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA977F20EE61280015ABBE /* annotations.swift */; };
+		3FFC4FCA20F0FA8D00EFE524 /* internationalizing.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC4FCC20F0FA8D00EFE524 /* internationalizing.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F47C9FD20EF6DCF007C0F0D /* stationData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stationData.xcdatamodel; sourceTree = "<group>"; };
+		3F47C9FF20EF70AE007C0F0D /* StationDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDataController.swift; sourceTree = "<group>"; };
 		3FFA974820EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werkstuk_2_DennisVanMalder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFA974B20EE5D9E0015ABBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFA974D20EE5D9E0015ABBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,18 @@
 		3FFA976720EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk_2_DennisVanMalderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFA976B20EE5D9E0015ABBE /* Werkstuk_2_DennisVanMalderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk_2_DennisVanMalderUITests.swift; sourceTree = "<group>"; };
 		3FFA976D20EE5D9E0015ABBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFA977920EE60910015ABBE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FFA977B20EE60C20015ABBE /* StationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
+		3FFA977D20EE60F30015ABBE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3FFA977F20EE61280015ABBE /* annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotations.swift; sourceTree = "<group>"; };
+		3FFC4FCB20F0FA8D00EFE524 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/internationalizing.strings; sourceTree = "<group>"; };
+		3FFC4FCD20F0FB8400EFE524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/internationalizing.strings; sourceTree = "<group>"; };
+		3FFC4FCE20F0FC5500EFE524 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		3FFC4FCF20F0FC5500EFE524 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3FFC4FD020F0FC5500EFE524 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/internationalizing.strings; sourceTree = "<group>"; };
+		3FFC4FD120F0FC6000EFE524 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3FFC4FD220F0FC6000EFE524 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3FFC4FD320F0FC6000EFE524 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/internationalizing.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +124,13 @@
 				3FFA975220EE5D9E0015ABBE /* Assets.xcassets */,
 				3FFA975420EE5D9E0015ABBE /* LaunchScreen.storyboard */,
 				3FFA975720EE5D9E0015ABBE /* Info.plist */,
+				3FFA977920EE60910015ABBE /* TableViewController.swift */,
+				3FFA977B20EE60C20015ABBE /* StationViewController.swift */,
+				3FFA977D20EE60F30015ABBE /* MapViewController.swift */,
+				3FFA977F20EE61280015ABBE /* annotations.swift */,
+				3F47C9FC20EF6DCF007C0F0D /* stationData.xcdatamodeld */,
+				3F47C9FF20EF70AE007C0F0D /* StationDataController.swift */,
+				3FFC4FCC20F0FA8D00EFE524 /* internationalizing.strings */,
 			);
 			path = Werkstuk_2_DennisVanMalder;
 			sourceTree = "<group>";
@@ -214,6 +242,8 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
+				fr,
 			);
 			mainGroup = 3FFA973F20EE5D9E0015ABBE;
 			productRefGroup = 3FFA974920EE5D9E0015ABBE /* Products */;
@@ -235,6 +265,7 @@
 				3FFA975620EE5D9E0015ABBE /* LaunchScreen.storyboard in Resources */,
 				3FFA975320EE5D9E0015ABBE /* Assets.xcassets in Resources */,
 				3FFA975120EE5D9E0015ABBE /* Main.storyboard in Resources */,
+				3FFC4FCA20F0FA8D00EFE524 /* internationalizing.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFA978020EE61280015ABBE /* annotations.swift in Sources */,
 				3FFA974E20EE5D9E0015ABBE /* ViewController.swift in Sources */,
+				3FFA977A20EE60910015ABBE /* TableViewController.swift in Sources */,
+				3F47C9FE20EF6DCF007C0F0D /* stationData.xcdatamodeld in Sources */,
 				3FFA974C20EE5D9E0015ABBE /* AppDelegate.swift in Sources */,
+				3FFA977E20EE60F30015ABBE /* MapViewController.swift in Sources */,
+				3F47CA0020EF70AE007C0F0D /* StationDataController.swift in Sources */,
+				3FFA977C20EE60C20015ABBE /* StationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +337,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				3FFA975020EE5D9E0015ABBE /* Base */,
+				3FFC4FCE20F0FC5500EFE524 /* nl */,
+				3FFC4FD120F0FC6000EFE524 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,8 +347,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				3FFA975520EE5D9E0015ABBE /* Base */,
+				3FFC4FCF20F0FC5500EFE524 /* nl */,
+				3FFC4FD220F0FC6000EFE524 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFC4FCC20F0FA8D00EFE524 /* internationalizing.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFC4FCB20F0FA8D00EFE524 /* en */,
+				3FFC4FCD20F0FB8400EFE524 /* Base */,
+				3FFC4FD020F0FC5500EFE524 /* nl */,
+				3FFC4FD320F0FC6000EFE524 /* fr */,
+			);
+			name = internationalizing.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -552,6 +606,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F47C9FC20EF6DCF007C0F0D /* stationData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F47C9FD20EF6DCF007C0F0D /* stationData.xcdatamodel */,
+			);
+			currentVersion = 3F47C9FD20EF6DCF007C0F0D /* stationData.xcdatamodel */;
+			path = stationData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3FFA974020EE5D9E0015ABBE /* Project object */;
 }

@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Last Updated"; ObjectID = "45Z-nz-Vpx"; */
+"45Z-nz-Vpx.text" = "Last Updated";
+
+/* Class = "UILabel"; text = "Bikes available"; ObjectID = "58R-gi-o9K"; */
+"58R-gi-o9K.text" = "Bikes available";
+
+/* Class = "UILabel"; text = "adress here"; ObjectID = "AA7-pl-5bz"; */
+"AA7-pl-5bz.text" = "adress here";
+
+/* Class = "UILabel"; text = "StationsNaam"; ObjectID = "BZu-cp-Jr0"; */
+"BZu-cp-Jr0.text" = "StationsNaam";
+
+/* Class = "UILabel"; text = "stands count"; ObjectID = "IS7-wJ-4Al"; */
+"IS7-wJ-4Al.text" = "stands count";
+
+/* Class = "UILabel"; text = "Stands available"; ObjectID = "MKJ-uD-K2i"; */
+"MKJ-uD-K2i.text" = "Stands available";
+
+/* Class = "UINavigationItem"; title = "Stationslijst"; ObjectID = "NFK-EK-PM4"; */
+"NFK-EK-PM4.title" = "Stationslijst";
+
+/* Class = "UIViewController"; title = "overview"; ObjectID = "aJ8-GL-auU"; */
+"aJ8-GL-auU.title" = "overview";
+
+/* Class = "UILabel"; text = "bike count"; ObjectID = "dgV-gY-MeL"; */
+"dgV-gY-MeL.text" = "bike count";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "kbH-lz-6WP"; */
+"kbH-lz-6WP.text" = "Status";
+
+/* Class = "UITabBarItem"; title = "Mapview"; ObjectID = "vys-pR-nXm"; */
+"vys-pR-nXm.title" = "Mapview";
+
+/* Class = "UILabel"; text = "Address: "; ObjectID = "xcb-cb-HxL"; */
+"xcb-cb-HxL.text" = "Address: ";
